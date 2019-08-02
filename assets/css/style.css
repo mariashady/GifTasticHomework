@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Londrina Outline', cursive;
+    background: coral;
+    color: white;
+
+
+}
+
+h1 {
+    padding: 50px;
+    font-size: 100px;
+    
+}
+
+h2 {
+    padding-left: 75px
+}
+
+#enterHere {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userInput {
+    margin-bottom: 15px;
+}
+
+
+
