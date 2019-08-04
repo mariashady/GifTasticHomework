@@ -1,10 +1,11 @@
+
 let food = ["pizza", "tacos", "burgers"];
 
 function makeButtons() {
 
     $("#buttonsView").empty();
 
-    for (let i = 0; i < foods.length; i++){
+    for (let i = 0; i < food.length; i++){
         let a = $("<button>")
         a.addClass("food");
         a.attr("data-name", food[i]);
@@ -12,6 +13,21 @@ function makeButtons() {
         $("#buttonsView").append(a);
     }
 }
+    
+// $(".newButtons").on("click", "button.food", function(){
+        
+//         let userFood = $("#foodInput").val().trim();
+//         food.push(userFood);
+//         return false;
+//     }
+    
+
+makeButtons();
+
+
+
+
+
 
 // let userChoice = $(".userInput").val();
 
