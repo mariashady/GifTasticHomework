@@ -23,8 +23,9 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.userInput {
+#userInput {
     margin-bottom: 15px;
+
 }
 
 #submitButton {
@@ -33,6 +34,11 @@ h2 {
 
 .addedButtons {
     margin-right: 10px;
+}
+
+#buttonsView {
+    margin-bottom: 15px;
+    
 }
 
 
