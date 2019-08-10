@@ -18,7 +18,7 @@ $(document).ready(function(){
     function displayGifs(){
        let apiKey = "eCMi4M1b7vas4I9GdRCg4WxBZreqr6Mm"
        let food = $(this).attr("data-name")
-       let queryURL = "http://api.giphy.com/v1/gifs/search?";
+       let queryURL = "https://api.giphy.com/v1/gifs/search?";
        let queryParam = {
            "api_key": apiKey,
            "q": food,
