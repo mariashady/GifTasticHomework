@@ -56,7 +56,7 @@ $(document).ready(function(){
         
         let userChoice = $(".userInput").val();
         food.push(userChoice);
-       makeButton();
+       makeButtons();
     });
     $(document).on("click", ".topic", displayGifs);
     
